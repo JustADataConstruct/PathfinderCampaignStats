@@ -87,11 +87,13 @@ const stats = computed<Stats | undefined>(() => {
 .charcard {
     will-change: filter;
     transition: filter 300ms;
+    transition: transform 300ms;
 
 }
 
 .charcard:hover {
     filter: drop-shadow(0 0 3em v-bind(color));
+    transform: scale(1.2);
     cursor: pointer;
 }
 </style>

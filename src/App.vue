@@ -22,6 +22,7 @@
   <div v-else>
     <ProgressSpinner />
   </div>
+  <div class="footer">Yaru 2024</div>
 </template>
 
 <script setup lang="ts">
@@ -49,5 +50,17 @@ async function base_test() {
   font-style: normal;
   color: red;
   text-shadow: 1px 1px 24px black;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-family: "Balthazar", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
 }
 </style>
