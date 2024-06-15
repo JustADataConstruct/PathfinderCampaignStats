@@ -5,6 +5,7 @@ import App from './App.vue'
 
 import PrimeVue from 'primevue/config';
 import 'primevue/resources/themes/aura-light-green/theme.css';
+import 'primeicons/primeicons.css';
 
 import Card from 'primevue/card';
 import Dialog from 'primevue/dialog';

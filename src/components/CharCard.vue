@@ -9,7 +9,8 @@
             </template>
         </Card>
     </div>
-    <Dialog v-model:visible="visible" dismissable-mask modal :header=name :style="{ width: '30rem' }">
+    <Dialog close-icon="pi pi-times-circle" v-model:visible="visible" dismissable-mask modal :header=name
+        :style="{ width: '30rem' }">
         <Fieldset legend="Natural 20s">
             <p class="m-0">
                 {{ stats?.nat20s }}
